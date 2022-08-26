@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>vue</title>
+</head>
+
+<body>
+    <section id="app" class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+
+                    <div class="column">
+                        <h1 class="title">{{ company.name }}</h1>
+                        <h2 class="subtitle">{{ company.description }}</h2>
+                        <p>{{ company.published ? 'Publicado' : 'Sin publicar' }}</p>
+                        <p>Cantidad actual de cursos: {{ courses.length }}</p>
+
+                        <hr>
+
+                        <form @submit.prevent="addCourse">
+                            <div class="field">
+                                <label>Curso</label>
+                                <input required v-model="newCourse.name" type="text" class="input">
+                            </div>
+
+                            <div class="field">
+                                <label>Precio</label>
+                                <input v-model="newCourse.price" type="text" class="input">
+                            </div>
+
+                            <div class="field">
+                                <button type="submit" class="button is-primary">Agregar</button>
+                            </div>
+                        </form>
+
+                        <hr>
+
+                        <button @click="doAThing" class="button is-primary">test</button>
+                    </div>
+
+                    <div class="column">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Curso</th>
+                                    <th>Precio</th>
+                                    <th>Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="item in courses">
+                                    <td>{{ item.name }}</td>
+                                    <td>US$ {{ item.price }}</td>
+                                    <td>
+                                        <input v-model="item.published" type="checkbox">
+
+                                        <span v-if="item.published" class="tag is-primary">Publicado</span>
+                                        <span v-else class="tag is-danger">Sin publicar</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                company: {
+                    name: 'Empresa',
+                    description: 'Esta es una descripción que debería aparecer correctamente',
+                    published: true
+                },
+                courses: [
+                    { name: 'Curso1', price: 14.99, published: true },
+                    { name: 'Curso2', price: 12.49, published: true },
+                    { name: 'Curso3', price: 9.99, published: false },
+                ],
+                newCourse: {
+                    name: null,
+                    price: null
+                }
+            },
+            methods: {
+                doAThing() {
+                    let idx = Math.floor(Math.random() * this.courses.length);
+
+                    course = this.courses.at(idx);
+                    course.published ? course.published = false : course.published = true;
+                },
+                addCourse() {
+                    let idx = this.courses.push({
+                        name: this.newCourse.name,
+                        price: this.newCourse.price,
+                        published: false
+                    });
+
+                    console.log(idx);
+
+                    this.newCourse.name = null;
+                    this.newCourse.price = null;
+                }
+            }
+        });
+
+        console.log(app);
+    </script>
+</body>
+
+</html>
