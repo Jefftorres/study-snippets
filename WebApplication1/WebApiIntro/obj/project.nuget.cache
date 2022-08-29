@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "emokBhCDMpXhp2sL8nat8aflr0mid5WvLKxjBtWZ2Xs9IHvxeiKNrgh7wuWZJ2wNKUjnUFeDJ3wWZ0XH54MJSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CIDS-5233\\Desktop\\jt\\WebApplication1\\WebApiIntro\\WebApiIntro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CIDS-5233\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\CIDS-5233\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\CIDS-5233\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\CIDS-5233\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\CIDS-5233\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\CIDS-5233\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
