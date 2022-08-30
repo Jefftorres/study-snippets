@@ -1,0 +1,12 @@
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model\bin\Debug\net6.0\Model.deps.json
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model\bin\Debug\net6.0\Model.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model\bin\Debug\net6.0\Model.pdb
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model\obj\Debug\net6.0\Model.csproj.AssemblyReference.cache
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model\obj\Debug\net6.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model\obj\Debug\net6.0\Model.AssemblyInfoInputs.cache
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model\obj\Debug\net6.0\Model.AssemblyInfo.cs
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model\obj\Debug\net6.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model\obj\Debug\net6.0\Model.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model\obj\Debug\net6.0\refint\Model.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model\obj\Debug\net6.0\Model.pdb
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model\obj\Debug\net6.0\ref\Model.dll

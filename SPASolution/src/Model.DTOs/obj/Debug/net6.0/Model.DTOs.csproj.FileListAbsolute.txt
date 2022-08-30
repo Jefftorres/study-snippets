@@ -1,0 +1,12 @@
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model.DTOs\bin\Debug\net6.0\Model.DTOs.deps.json
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model.DTOs\bin\Debug\net6.0\Model.DTOs.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model.DTOs\bin\Debug\net6.0\Model.DTOs.pdb
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model.DTOs\obj\Debug\net6.0\Model.DTOs.csproj.AssemblyReference.cache
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model.DTOs\obj\Debug\net6.0\Model.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model.DTOs\obj\Debug\net6.0\Model.DTOs.AssemblyInfoInputs.cache
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model.DTOs\obj\Debug\net6.0\Model.DTOs.AssemblyInfo.cs
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model.DTOs\obj\Debug\net6.0\Model.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model.DTOs\obj\Debug\net6.0\Model.DTOs.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model.DTOs\obj\Debug\net6.0\refint\Model.DTOs.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model.DTOs\obj\Debug\net6.0\Model.DTOs.pdb
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Model.DTOs\obj\Debug\net6.0\ref\Model.DTOs.dll

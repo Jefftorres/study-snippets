@@ -1,0 +1,15 @@
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\bin\Debug\net6.0\Persistence.Database.deps.json
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\bin\Debug\net6.0\Persistence.Database.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\bin\Debug\net6.0\Persistence.Database.pdb
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\bin\Debug\net6.0\Model.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\bin\Debug\net6.0\Model.pdb
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\obj\Debug\net6.0\Persistence.Database.csproj.AssemblyReference.cache
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\obj\Debug\net6.0\Persistence.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\obj\Debug\net6.0\Persistence.Database.AssemblyInfoInputs.cache
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\obj\Debug\net6.0\Persistence.Database.AssemblyInfo.cs
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\obj\Debug\net6.0\Persistence.Database.csproj.CoreCompileInputs.cache
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\obj\Debug\net6.0\Persistence.Database.csproj.CopyComplete
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\obj\Debug\net6.0\Persistence.Database.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\obj\Debug\net6.0\refint\Persistence.Database.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\obj\Debug\net6.0\Persistence.Database.pdb
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Persistence.Database\obj\Debug\net6.0\ref\Persistence.Database.dll
