@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Hj+1iF3/eobAkMBwjVUpL2fth6UWkgpD6rSskF8Zqci0Ww+oqUrw8MPgVkckYFc5m30zDaywnrE/XpxoV5ZnQQ==",
+  "dgSpecHash": "xSsTY5suZ/+HieIt2+4N7Leyt3KBcYvo218f4qnpWZJx0hRs/E/BKShS0MWFbnkYy+T2LBPa3hNGXxr6W3mSSw==",
   "success": true,
   "projectFilePath": "C:\\Users\\CIDS-5233\\Desktop\\jt\\SPASolution\\src\\Service\\Service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CIDS-5233\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\CIDS-5233\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\CIDS-5233\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\CIDS-5233\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\CIDS-5233\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\CIDS-5233\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",

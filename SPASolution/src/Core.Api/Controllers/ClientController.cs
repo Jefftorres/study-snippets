@@ -15,6 +15,12 @@ namespace Core.Api.Controllers
             _clientService = clientService;
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ClientDto>> GetById(int id)
+        {
+            return await _clientService.GetById(id);
+        }
+
         [HttpPost]
         public async Task<ActionResult> Create(ClientCreateDto model)
         {

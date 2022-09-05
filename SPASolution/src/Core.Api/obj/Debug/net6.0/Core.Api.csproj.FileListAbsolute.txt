@@ -66,3 +66,5 @@ C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Model.DT
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Service.dll
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Service.pdb
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Model.DTOs.pdb
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

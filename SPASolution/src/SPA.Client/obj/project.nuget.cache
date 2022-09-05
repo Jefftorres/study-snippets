@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0XnP3AVEaPNV1koGRrz2vZBuKf9KakpQEiMse/8leTQIUmQloEGr6zQ3+BWRq9UG3LpRqXDZcuX3vlzo8anj+w==",
+  "dgSpecHash": "BSjUmcFYBzzN44tZo7o+oJdnUMfz0Lv6ROdiwboZYXLax+Re3xAfFOr9gicAo82Jc4zlYF4+Liiv2F66C2/QvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\CIDS-5233\\Desktop\\jt\\SPASolution\\src\\SPA.Client\\SPA.Client.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\CIDS-5233\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\CIDS-5233\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

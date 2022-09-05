@@ -11,6 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(
 
 builder.Services.AddControllers();
 builder.Services.AddTransient<IClientService, ClientService>();
+builder.Services.AddAutoMapper(typeof(Program));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
