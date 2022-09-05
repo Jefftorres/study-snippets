@@ -24,8 +24,16 @@ namespace Core.Api.Controllers
         [HttpPost]
         public async Task<ActionResult> Create(ClientCreateDto model)
         {
-            await _clientService.Create(model);
-            return Ok();
+            var result = await _clientService.Create(model);
+
+            return CreatedAtAction("GetById", new { id = result.ClientId }, result);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Update(int id, ClientUpdateDto model)
+        {
+            await _clientService.Update(id, model);
+            return NoContent();
         }
     }
 }

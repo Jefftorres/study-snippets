@@ -9,7 +9,8 @@ namespace Service
     public interface IClientService
     {
         Task<ClientDto> GetById(int id);
-        Task Create(ClientCreateDto model);
+        Task<ClientDto> Create(ClientCreateDto model);
+        Task Update(int id, ClientUpdateDto model);
     }
 
     public class ClientService : IClientService
@@ -30,7 +31,7 @@ namespace Service
             );
         }
 
-        public async Task Create(ClientCreateDto model)
+        public async Task<ClientDto> Create(ClientCreateDto model)
         {
             var entry = new Client
             {
@@ -38,6 +39,16 @@ namespace Service
             };
 
             await _context.AddAsync(entry);
+            await _context.SaveChangesAsync();
+
+            return _mapper.Map<ClientDto>(entry);
+        }
+
+        public async Task Update(int id, ClientUpdateDto model)
+        {
+            var entry = await _context.Clients.SingleAsync(x => x.ClientId == id);
+            entry.Name = model.Name;
+
             await _context.SaveChangesAsync();
         }
     }

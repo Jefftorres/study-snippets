@@ -8,6 +8,12 @@ namespace Model.DTOs
         public string Name { get; set; }
     }
 
+    public class ClientUpdateDto
+    {
+        [Required]
+        public string Name { get; set; }
+    }
+
     public class ClientDto
     {
         public int ClientId { get; set; }
