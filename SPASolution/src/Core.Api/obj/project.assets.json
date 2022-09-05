@@ -880,6 +880,16 @@
           "bin/placeholder/Model.dll": {}
         }
       },
+      "Model.DTOs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Model.DTOs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.DTOs.dll": {}
+        }
+      },
       "Persistence.Database/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -892,6 +902,20 @@
         },
         "runtime": {
           "bin/placeholder/Persistence.Database.dll": {}
+        }
+      },
+      "Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Model.DTOs": "1.0.0",
+          "Persistence.Database": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.dll": {}
         }
       }
     }
@@ -2245,16 +2269,27 @@
       "path": "../Model/Model.csproj",
       "msbuildProject": "../Model/Model.csproj"
     },
+    "Model.DTOs/1.0.0": {
+      "type": "project",
+      "path": "../Model.DTOs/Model.DTOs.csproj",
+      "msbuildProject": "../Model.DTOs/Model.DTOs.csproj"
+    },
     "Persistence.Database/1.0.0": {
       "type": "project",
       "path": "../Persistence.Database/Persistence.Database.csproj",
       "msbuildProject": "../Persistence.Database/Persistence.Database.csproj"
+    },
+    "Service/1.0.0": {
+      "type": "project",
+      "path": "../Service/Service.csproj",
+      "msbuildProject": "../Service/Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
       "Persistence.Database >= 1.0.0",
+      "Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2287,6 +2322,9 @@
           "projectReferences": {
             "C:\\Users\\CIDS-5233\\Desktop\\jt\\SPASolution\\src\\Persistence.Database\\Persistence.Database.csproj": {
               "projectPath": "C:\\Users\\CIDS-5233\\Desktop\\jt\\SPASolution\\src\\Persistence.Database\\Persistence.Database.csproj"
+            },
+            "C:\\Users\\CIDS-5233\\Desktop\\jt\\SPASolution\\src\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\CIDS-5233\\Desktop\\jt\\SPASolution\\src\\Service\\Service.csproj"
             }
           }
         }

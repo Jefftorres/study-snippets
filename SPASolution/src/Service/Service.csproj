@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Model.DTOs\Model.DTOs.csproj" />
+    <ProjectReference Include="..\Persistence.Database\Persistence.Database.csproj" />
+  </ItemGroup>
+
 </Project>

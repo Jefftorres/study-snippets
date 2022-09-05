@@ -10,3 +10,10 @@ C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Service\obj\Debug\net6.0\Service.d
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Service\obj\Debug\net6.0\refint\Service.dll
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Service\obj\Debug\net6.0\Service.pdb
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Service\obj\Debug\net6.0\ref\Service.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Service\bin\Debug\net6.0\Model.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Service\bin\Debug\net6.0\Model.DTOs.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Service\bin\Debug\net6.0\Persistence.Database.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Service\bin\Debug\net6.0\Model.DTOs.pdb
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Service\bin\Debug\net6.0\Persistence.Database.pdb
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Service\bin\Debug\net6.0\Model.pdb
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Service\obj\Debug\net6.0\Service.csproj.CopyComplete

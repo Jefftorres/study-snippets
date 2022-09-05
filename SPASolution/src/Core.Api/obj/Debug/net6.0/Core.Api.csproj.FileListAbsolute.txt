@@ -62,3 +62,7 @@ C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\obj\Debug\net6.0\refint\C
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\obj\Debug\net6.0\Core.Api.pdb
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\obj\Debug\net6.0\Core.Api.genruntimeconfig.cache
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\obj\Debug\net6.0\ref\Core.Api.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Model.DTOs.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Service.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Service.pdb
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Model.DTOs.pdb
