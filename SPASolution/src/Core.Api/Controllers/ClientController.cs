@@ -35,5 +35,12 @@ namespace Core.Api.Controllers
             await _clientService.Update(id, model);
             return NoContent();
         }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Remove(int id)
+        {
+            await _clientService.Remove(id);
+            return NoContent();
+        }
     }
 }

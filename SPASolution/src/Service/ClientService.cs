@@ -11,6 +11,7 @@ namespace Service
         Task<ClientDto> GetById(int id);
         Task<ClientDto> Create(ClientCreateDto model);
         Task Update(int id, ClientUpdateDto model);
+        Task Remove(int id);
     }
 
     public class ClientService : IClientService
@@ -48,6 +49,16 @@ namespace Service
         {
             var entry = await _context.Clients.SingleAsync(x => x.ClientId == id);
             entry.Name = model.Name;
+
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task Remove(int id)
+        {
+            _context.Remove(new Client
+            {
+                ClientId = id
+            });
 
             await _context.SaveChangesAsync();
         }
