@@ -3,11 +3,14 @@ using Microsoft.EntityFrameworkCore;
 using Model;
 using Model.DTOs;
 using Persistence.Database;
+using Service.Commons;
+using Service.Extensions;
 
 namespace Service
 {
     public interface IClientService
     {
+        Task<DataCollection<ClientDto>> GetById(int page, int take);
         Task<ClientDto> GetById(int id);
         Task<ClientDto> Create(ClientCreateDto model);
         Task Update(int id, ClientUpdateDto model);
@@ -23,6 +26,39 @@ namespace Service
         {
             _context = context;
             _mapper = mapper;
+        }
+
+        public async Task<DataCollection<ClientDto>> GetById(int page, int take)
+        {
+            //var result = new DataCollection<ClientDto>();
+
+            //result.Total = await _context.Clients.CountAsync();
+            //result.Page = page;
+
+            //if (result.Total > 0)
+            //{
+            //    result.Pages = Convert.ToInt32(
+            //        Math.Ceiling(
+            //            Convert.ToDecimal(result.Total) / take
+            //        )
+            //    );
+
+            //    result.Items = _mapper.Map<List<ClientDto>>(
+            //        await _context.Clients
+            //        .OrderByDescending(x => x.ClientId)
+            //        .Skip((page - 1) * take)
+            //        .Take(take)
+            //        .ToListAsync()
+            //    );
+            //}
+
+            //return result;
+
+            return _mapper.Map<DataCollection<ClientDto>>(
+                await _context.Clients.OrderByDescending(x => x.ClientId)
+                    .AsQueryable()
+                    .PagedAsync(page, take)
+            );
         }
 
         public async Task<ClientDto> GetById(int id)

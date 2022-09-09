@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Model.DTOs;
 using Service;
+using Service.Commons;
 
 namespace Core.Api.Controllers
 {
@@ -13,6 +14,12 @@ namespace Core.Api.Controllers
         public ClientController(IClientService clientService)
         {
             _clientService = clientService;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<DataCollection<ClientDto>>> GetById(int page, int take = 20)
+        {
+            return await _clientService.GetById(page, take);
         }
 
         [HttpGet("{id}")]
