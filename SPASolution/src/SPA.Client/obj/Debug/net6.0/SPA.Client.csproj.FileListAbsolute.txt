@@ -19,3 +19,5 @@ C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\SPA.Client\obj\Debug\net6.0\refint
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\SPA.Client\obj\Debug\net6.0\SPA.Client.pdb
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\SPA.Client\obj\Debug\net6.0\SPA.Client.genruntimeconfig.cache
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\SPA.Client\obj\Debug\net6.0\ref\SPA.Client.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\SPA.Client\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\SPA.Client\obj\Debug\net6.0\SPA.Client.csproj.CopyComplete

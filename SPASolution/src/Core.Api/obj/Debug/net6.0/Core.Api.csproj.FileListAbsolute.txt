@@ -68,3 +68,8 @@ C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Service.
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Model.DTOs.pdb
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\CIDS-5233\Desktop\jt\SPASolution\src\Core.Api\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

@@ -1,10 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Model;
+using Model.Identity;
 using Persistence.Database.Config;
 
 namespace Persistence.Database
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
@@ -24,6 +26,8 @@ namespace Persistence.Database
             new OrderConfig(builder.Entity<Order>());
             new OrderDetailConfig(builder.Entity<OrderDetail>());
             new ProductConfig(builder.Entity<Product>());
+            new ApplicationUserConfig(builder.Entity<ApplicationUser>());
+            new ApplicationRoleConfig(builder.Entity<ApplicationRole>());
         }
     }
 }
