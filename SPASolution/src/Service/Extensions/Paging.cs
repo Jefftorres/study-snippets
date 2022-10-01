@@ -22,7 +22,6 @@ namespace Service.Extensions
             if (result.Total > 0)
             {
                 result.Pages = Convert.ToInt32(Math.Ceiling(Convert.ToDecimal(result.Total) / take));
-
                 result.Items = await query.Skip((page - 1) * take).Take(take).ToListAsync();
             }
 

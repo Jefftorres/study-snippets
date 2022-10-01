@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Model.DTOs;
 using Service;
 using Service.Commons;
 
 namespace Core.Api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("clients")]
     public class ClientController : ControllerBase
@@ -19,6 +21,7 @@ namespace Core.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<DataCollection<ClientDto>>> GetById(int page, int take = 20)
         {
+            var identity = this.User.Identity;
             return await _clientService.GetById(page, take);
         }
 
