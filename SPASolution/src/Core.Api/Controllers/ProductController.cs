@@ -6,7 +6,6 @@ using Service.Commons;
 
 namespace Core.Api.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("products")]
     public class ProductController : ControllerBase
